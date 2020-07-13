@@ -5,7 +5,8 @@
 
 using namespace lc;
 
-int main() {
+int main() 
+{
 	lc::Logger::getInstance()->warn("WARN");
 	lc::Logger::getInstance()->error("ERROR");
 
