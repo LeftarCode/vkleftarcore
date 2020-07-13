@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CodeStyle
+name: CI
 
 on:
   push:
@@ -9,10 +9,11 @@ on:
     branches: [ master ]
 
 jobs:
-  lint:
+  check-code-style:
     runs-on: ubuntu-latest
     steps:
     - run: sudo apt install clang-format
     - run: sudo apt install python
-    - run: curl https://raw.githubusercontent.com/Sarcasm/run-clang-format/master/run-clang-format.py > ./run-clang-format.py
+    - run: curl https://raw.githubusercontent.com/Sarcasm/run-clang-format/master/run-clang-format.py > run-clang-format.py
+    - run: sudo chmod +x run-clang-format.py
     - run: ./run-clang-format.py -r .
