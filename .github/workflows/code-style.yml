@@ -1,0 +1,17 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CodeStyle
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - run: sudo apt install clang-format
+    - run: sudo apt install python
+    - run: curl https://raw.githubusercontent.com/Sarcasm/run-clang-format/master/run-clang-format.py > ./script.py
