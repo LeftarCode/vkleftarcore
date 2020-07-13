@@ -6,7 +6,7 @@
 using namespace lc;
 
 int main() {
-	  lc::Logger::getInstance()->warn("WARN");
+	lc::Logger::getInstance()->warn("WARN");
 	lc::Logger::getInstance()->error("ERROR");
 
 	RenderEngineCreateInfo createInfo;
