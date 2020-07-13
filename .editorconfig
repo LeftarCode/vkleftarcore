@@ -1,0 +1,7 @@
+# Wygenerowany przez program Visual Studio plik editorconfig z ustawieniami języka C++.
+
+[*.{c++,cc,cpp,cu,cuh,cxx,h,h++,hh,hpp,hxx,inl,ipp,tlh,tli}]
+vc_generate_documentation_comments = doxygen_triple_slash
+
+[*.{c++,cc,cpp,cu,cuh,cxx,h,h++,hh,hpp,hxx,inl,ipp,tlh,tli}]
+vc_generate_documentation_comments = doxygen_triple_slash
