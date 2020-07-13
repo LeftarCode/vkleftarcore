@@ -1,5 +1,5 @@
 # vkLeftarCore
-vkLeftarCore is my 3rd engine education purpose. It's going to by ECS based architecture. I'm writing this one among other things to get a job as *Engine Programmer* in Poland.
+vkLeftarCore is my 3rd engine education purpose. It's going to be ECS based architecture. I'm writing this one among other things to get a job as *Engine Programmer* in Poland.
 ![CI](https://github.com/LeftarCode/vkleftarcore/workflows/CI/badge.svg)
 ## Platform
 - Windows x64 (msvc14)
