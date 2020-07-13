@@ -14,4 +14,5 @@ jobs:
     steps:
     - run: sudo apt install clang-format
     - run: sudo apt install python
-    - run: curl https://raw.githubusercontent.com/Sarcasm/run-clang-format/master/run-clang-format.py > ./script.py
+    - run: curl https://raw.githubusercontent.com/Sarcasm/run-clang-format/master/run-clang-format.py > ./run-clang-format.py
+    - run: ./run-clang-format.py -r .
